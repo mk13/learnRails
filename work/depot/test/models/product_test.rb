@@ -63,4 +63,14 @@ class ProductTest < ActiveSupport::TestCase
 		assert_equal "has already been taken",
                  product.errors[:title].join('; ')
 	end
+	
+	test "title length at least 5" do
+		product = Product.new(title: "four",
+							  description: "zzz",
+							  price: 20,
+							  image_url: "four.jpg")
+		assert !product.save, "#{product.title} should not be saved"
+		assert product.invalid?, "#{product.title} should not be a valid title"
+		assert product.errors[:title].any?, "#{product.errors[:title]} should not be empty"
+	end
 end

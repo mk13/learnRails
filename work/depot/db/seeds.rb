@@ -21,8 +21,40 @@ Product.create(title: 'Lemon',
 	description:
 		%{<p>
 			This is a lemon.
+			Why would you buy this?
 		</p>},
 	image_url: 'lemon.jpg',
 	price: 2.00
 )
 
+Product.create(title: 'Learning Python, 5th edition',
+	description: 
+		%{<p>
+			Get a comprehensive, in-depth introduction to the core Python
+			language with this hands-on book. Based on author Mark Lutz's
+			popular training course, this updated fifth edition will help
+			you quickly write efficient, high-quality code with Python.
+			It is an ideal way to begin, whether you're new to programming
+			or a professional developer versed in other languages.
+		</p>},
+	image_url: 'learningPython.jpg',
+	price: 40.52
+)
+
+Product.create(title: 'The Goldfinch: A Novel',
+	description: 
+		%{<p>
+			Pulitzer Prize for fiction book, written by Donna Tart.
+		</p>},
+	image_url: 'goldfinch.jpg',
+	price: 17.95
+)
+
+Product.create(title: 'X-Men: Days of Future Past[Blu-ray]',
+	description: 
+		%{<p>
+			Blu-ray DVD of X-Men: Days of Future Past.
+		</p>},
+	image_url: 'xmen.jpg',
+	price: 19.99
+)
