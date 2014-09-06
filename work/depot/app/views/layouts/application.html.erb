@@ -6,7 +6,7 @@
 <title>Everything Store</title>
 <!-- END_HIGHLIGHT -->
   <%= stylesheet_link_tag    "application", media: "all" %><!-- <label id="code.slt"/> -->
-  <%= javascript_include_tag "application" %><!-- <label id="code.jlt"/> -->
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %><!-- <label id="code.csrf"/> -->
 </head>
 <!-- END:head -->
@@ -18,6 +18,10 @@
   </div>
   <div id="columns">
     <div id="side">
+	  <div id="cart">
+		<%= render @cart %>
+	  </div>
+	  
       <ul>
         <li><a href="http://www....">Home</a></li>
         <li><a href="http://www..../faq">Questions</a></li>
