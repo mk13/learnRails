@@ -11,6 +11,7 @@
  * file per style scope.
  * 
  *= require_self
+ *= require jquery-ui
  *= require_tree .
  */
  
@@ -52,7 +53,7 @@
 
 	#side {
 		float: left;
-		padding: 1em 2em;
+		padding: 1em;
 		width: 13em;
 		background: #141;
 		
