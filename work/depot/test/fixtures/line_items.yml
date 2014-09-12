@@ -5,7 +5,6 @@ one:
   cart_id: 1
   quantity: 1
   price: ruby.price
-  order: one
 
 two:
   product_id: ruby.id

@@ -39,5 +39,3 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'jquery-ui-rails'
-
-gem 'will_paginate', '~> 3.0'
