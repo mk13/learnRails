@@ -20,17 +20,4 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  application: 
-	title: 			"Everything Store"
-	home:			"Home"
-	questions:		"Questions"
-	news:			"News"
-	contact:		"Contact"
-	
-es:
-  application:
-	title:			"Publicaciones de Pragmatic"
-	home:			"Inicio"
-	questions:		"Preguntas"
-	news:			"Noticias"
-	contact:		"Contacto"
+  hello: "Hello world"
