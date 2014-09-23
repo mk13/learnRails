@@ -9,25 +9,30 @@
 User.delete_all
 User.create(
 	name: "Bob Bobbert",
-	email: "bob@example.com"
+	email: "bob@example.com",
+	screenname: "bobbob"
 )
 
 User.create(
 	name: "Ted Teddy",
-	email: "ted@example.com"
+	email: "ted@example.com",
+	screenname: "tedted"
 )
 
 User.create(
 	name: "Alice Ali",
-	email: "alice@example.com"
+	email: "alice@example.com",
+	screenname: "aliali"
 )
 
 User.create(
 	name: "Sam Samsom",
-	email: "sam@gmail.com"
+	email: "sam@gmail.com",
+	screenname: "samsam"
 )
 
 User.create(
 	name: "Peter Parker",
-	email: "peter@gmail.com"
+	email: "peter@gmail.com",
+	screenname: "spiderman"
 )
