@@ -1,6 +1,7 @@
 require "encrypter"
 
 class User < ActiveRecord::Base
+	has_many :accounts
 	validates :name, :email, :screenname, presence: true, uniqueness: true
 	
 	#before_save -> encrypt
